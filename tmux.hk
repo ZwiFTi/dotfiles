@@ -1,0 +1,21 @@
+
+# WINDOW OPERATIONS
+c - create (new) window
+, - rename window
+p - previous window
+n - next window
+w - list windows
+
+
+# PANES
+% - split vertically
+" - split horisontally
+
+
+# SESSIONS
+tmux new -s <session_name> - creates a new session
+tmux list-sessions - list sessions
+tmux attach -t <session_name> - reattach to a session
+
+# GENERAL INFORMATION
+star = which window you are on
