@@ -9,6 +9,9 @@ export PATH
 PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 export PATH
 
+# Function to cd into dir with ls
+d() { cd "$@" && ls; }
+
 alias c='clear'
 alias p='pygmentize -g'
 alias ll='ls -la'
@@ -20,7 +23,6 @@ alias sl='ls'
 alias hk='cat ~/hotkey'
 alias hkedit='touch ~/hotkey; atom ~/hotkey'
 alias bashedit='touch ~/.bash_profile; atom ~/.bash_profile'
-
 
 
 
