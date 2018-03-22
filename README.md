@@ -4,8 +4,9 @@ Install
 
     cd ~                                                                          
     git clone https://github.com/ZwiFTi/dotfiles.git
-    mv dotfiles/* dotfiles/.* .                                            
-    rm -f dotfiles
+    cd dotfiles                                            
+    chmod +x install.sh
+    ./install.sh
    
 List tracked files
 
