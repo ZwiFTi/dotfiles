@@ -1,0 +1,26 @@
+'''Function Declarations'''
+function myFunction(p1, p2) {
+    return p1 * p2;              // The function returns the product of p1 and p2
+}
+
+
+'''Function Expressions'''
+var x = function (a, b) {return a * b};
+
+
+'''The Function() Constructor'''
+var myFunction = new Function("a", "b", "return a * b");
+
+
+'''Function Hoisting'''
+myFunction(5);
+
+function myFunction(y) {
+    return y * y;
+}
+
+
+'''Self-Invoking Functions'''
+(function () {
+    var x = "Hello!!";      // I will invoke myself
+})();

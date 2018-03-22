@@ -78,13 +78,13 @@ PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 export PATH
 
 # Function to cd into dir with ls
-d() { cd "$@" && ls; }
+d() { cd "$@" && ls -G; }
 
 # Function for git
 # clone my <project>
 cm() { git clone https://github.com/ZwiFTi/"$@".git; }
 
-
+# Aliases
 alias c='clear'
 alias p='pygmentize -g'
 alias ll='ls -la'
@@ -103,19 +103,18 @@ alias ls='ls -G'
 # Fast programming information
 
 ## JavaScript
-alias javascript.function.syntax='p ~/bp/javascript.function.syntax'
-alias javascript.function.syntax.edit='atom ~/bp/javascript.function.syntax'
+alias javascript.function.syntax='p ~/dotfiles/hotkeys/javascript/javascript.function.syntax'
+alias javascript.function.syntax.edit='vim ~/dotfiles/hotkeys/javascript/javascript.function.syntax'
 alias javascript.function.syntax.open='open https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions'
 
-alias javascript.class.syntax='p ~/bp/javascript.class.syntax'
-alias javascript.class.syntax.edit='atom ~/bp/javascript.class.syntax'
+alias javascript.class.syntax='p ~/dotfiles/hotkeys/javascript/javascript.class.syntax'
+alias javascript.class.syntax.edit='vim ~/dotfiles/hotkeys/javascript/javascript.class.syntax'
 alias javascript.class.syntax.open='open https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/classes'
 
 
 ## Tmux
-
-alias tmux.hk='p ~/tmux.hk'
-alias tmux.hk.edit='vim ~/tmux.hk'
+alias tmux.hk='p ~/dotfiles/hotkeys/tmux.hk'
+alias tmux.hk.edit='vim ~/dotfiles/hotkeys/tmux.hk'
 
 
 #Udacity GIT profile
