@@ -80,6 +80,11 @@ export PATH
 # Function to cd into dir with ls
 d() { cd "$@" && ls; }
 
+# Function for git
+# clone my <project>
+cm() { git clone https://github.com/ZwiFTi/"$@".git; }
+
+
 alias c='clear'
 alias p='pygmentize -g'
 alias ll='ls -la'
@@ -91,7 +96,7 @@ alias sl='ls'
 alias hk='cat ~/hotkey'
 alias hkedit='touch ~/hotkey; atom ~/hotkey'
 alias bashedit='touch ~/.bash_profile; atom ~/.bash_profile'
-
+alias ls='ls -G'
 
 
 
