@@ -45,10 +45,10 @@ alias tmux.hk.edit='vim ~/tmux.hk'
 
 #Udacity GIT profile
 # Enable tab completion
-source ~/.udacity-terminal-config/git-completion.bash
+source ~/dotfiles/git-completion.bash
 
 # Change command prompt
-source ~/.udacity-terminal-config/git-prompt.sh
+source ~/dotfiles/git-prompt.sh
 
 # colors!
 red="\[\033[38;5;203m\]"
