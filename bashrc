@@ -113,6 +113,7 @@ alias javascript.class.syntax.open='open https://developer.mozilla.org/en-US/doc
 
 
 ## Tmux
+tmux
 alias tmux.hk='p ~/dotfiles/hotkeys/tmux.hk'
 alias tmux.hk.edit='vim ~/dotfiles/hotkeys/tmux.hk'
 
