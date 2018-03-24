@@ -1,0 +1,3 @@
+psql -d <db_name> - connect to your database
+\db               - display tables
+\d <table_name>   - display database schema for a particular table
