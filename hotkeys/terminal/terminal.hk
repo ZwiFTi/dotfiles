@@ -1,0 +1,2 @@
+remove_file: rm -f file.mp3
+remove_folder: rm -rf folder
