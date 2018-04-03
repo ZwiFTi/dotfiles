@@ -84,6 +84,10 @@ d() { cd "$@" && ls -G; }
 # clone my <project>
 cm() { git clone https://github.com/ZwiFTi/"$@".git; }
 
+# Financial functions
+ks() { python ~/dotfiles/projects/financials/cashflowstatement.py "$@"; }
+alias mc='python ~/dotfiles/projects/financials/marketcap.py'
+
 # Aliases
 alias c='clear'
 alias p='pygmentize -g'
