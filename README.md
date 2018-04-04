@@ -33,3 +33,8 @@ First Time Git Configuration
     # Install PEP8 checking module
     sudo apt install pycodestyle
     pycodestyle <my_file.py>
+
+# Dependencies
+
+    sudo easy_install -U tabulate
+    sudo easy_install -U requests

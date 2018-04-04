@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import requests
 import math
 from tabulate import tabulate
