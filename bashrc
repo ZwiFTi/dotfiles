@@ -148,7 +148,8 @@ function testingargs {
 }
 
 
-
+# GIT
+alias log="git log --pretty=format:"%h - %an, %ar : %s""
 
 # Fast programming information
 
