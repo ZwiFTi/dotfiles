@@ -137,8 +137,17 @@ fs() {
 alias pull="git pull origin master"
 alias pus="git push origin master"
 push() {
-    git add . | git commit -m "$@" | git push origin master;
+    git add .
+    git commit -m "$@"
+    git push origin master;
 }
+
+function testingargs {
+    echo "My arguments are: "$@""
+}
+
+
+
 
 # Fast programming information
 
