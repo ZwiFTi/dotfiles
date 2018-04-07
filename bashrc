@@ -135,7 +135,10 @@ fs() {
 
 # Git pull/push easymode
 alias pull="git pull origin master"
-alias push="git push origin master"
+alias pus="git push origin master"
+push() {
+    git add . | git commit -m "$@" | git push origin master;
+}
 
 # Fast programming information
 
