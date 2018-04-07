@@ -142,6 +142,7 @@ push() {
     git push origin master;
 }
 
+# tester function (deleteme later)
 function testingargs {
     echo "My arguments are: "$@""
 }
