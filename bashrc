@@ -118,6 +118,20 @@ alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo 
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 
+# Determine size of a file or total size of a directory
+fs() {
+    if du -b /dev/null > /dev/null 2>&1; then
+        local arg=-sbh
+    else
+        local arg=-sh
+    fi
+    # shellcheck disable=SC2199
+    if [[ -n "$@" ]]; then
+        du $arg -- "$@"
+    else
+        du $arg -- .[^.]* *
+    fi
+}
 
 # Fast programming information
 
