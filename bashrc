@@ -133,6 +133,10 @@ fs() {
     fi
 }
 
+# Git pull/push easymode
+alias pull="git pull origin master"
+alias push="git push origin master"
+
 # Fast programming information
 
 ## JavaScript
