@@ -38,3 +38,13 @@ First Time Git Configuration
 
     sudo easy_install -U tabulate
     sudo easy_install -U requests
+
+# First time ubuntu installation
+
+    sudo apt-get update
+    sudo apt-get install git
+    sudo apt-get install vim
+    (sudo apt-get install zsh)
+    git clone https://github.com/ZwiFTi/dotfiles.git
+    sudo apt-get install tmux
+    **run install script for dotfiles**
