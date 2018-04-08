@@ -137,8 +137,8 @@ fs() {
 alias pull="git pull origin master"
 alias pus="git push origin master"
 push() {
-    git add .
-    git commit -m "$@"
+    git add .;
+    git commit -m "$@";
     git push origin master;
 }
 
@@ -149,7 +149,7 @@ function testingargs {
 
 
 # GIT
-alias log="git log --pretty=format:"%h - %an, %ar : %s""
+alias log='git log --pretty=format:"%h - %an, %ar : %s"'
 
 # Fast programming information
 

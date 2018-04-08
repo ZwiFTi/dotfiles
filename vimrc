@@ -1,5 +1,11 @@
 set runtimepath+=~/.vim_runtime
 
+"For vim-wiki"
+set nocompatible
+filetype plugin on
+syntax on
+
+
 source ~/.vim_runtime/vimrcs/basic.vim
 source ~/.vim_runtime/vimrcs/filetypes.vim
 source ~/.vim_runtime/vimrcs/plugins_config.vim
@@ -22,4 +28,5 @@ set cindent "Like smartindent, but stricter and more customisable"
 
 set number "gives numbers on the left hand side"
 set relativenumber "gives rel. number on left hand side"
-
+set bg=dark "keep wim dark"
+set mouse=a
